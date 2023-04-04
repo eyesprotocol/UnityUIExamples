@@ -30,7 +30,8 @@ public class FlatCalendarInspector : Editor {
 
 	SerializedProperty uiStyle;
 
-	GUIContent[] guil = new GUIContent[] { new GUIContent("GREEN_SEA"),
+	GUIContent[] guil = new GUIContent[] { new GUIContent("NAZAKT"),
+										   new GUIContent("GREEN_SEA"),
 										   new GUIContent("RED_CARPET"),
 										   new GUIContent("ORANGE_JUICE"),
 										   new GUIContent("GOOGLE_MATERIAL")

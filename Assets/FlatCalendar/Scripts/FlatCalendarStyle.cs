@@ -28,7 +28,7 @@ public class FlatCalendarStyle
 	/*
 	 * UI Colors Configuration 
 	 */
-	public enum COLORS_TYPE { GREEN_SEA, RED_CARPET, ORANGE_JUICE, GOOGLE_MATERIAL};
+	public enum COLORS_TYPE { NAZAKT, GREEN_SEA, RED_CARPET, ORANGE_JUICE, GOOGLE_MATERIAL};
 
 	/*
 	 * Single UI Colors Items
@@ -53,6 +53,30 @@ public class FlatCalendarStyle
 
 	public static void changeUIStyle(int style)
 	{
+		// ======================================================
+		// ===================== NAZAKT =========================
+		// ======================================================
+		if(style == (int) FlatCalendarStyle.COLORS_TYPE.NAZAKT)
+		{
+			color_header     			= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f); // 하얀색
+			color_subheader				= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f); // 하얀색
+			color_body 					= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f); // 하얀색
+			color_footer 				= new Color( 67.0f/255.0f, 77.0f/255.0f, 87.0f/255.0f,255.0f/255.0f);
+			color_dayTextNormal			= new Color(  0.0f/255.0f,  0.0f/255.0f,  0.0f/255.0f,255.0f/255.0f); // 검정색
+			color_dayTextEvent			= new Color(  0.0f/255.0f,112.0f/255.0f,113.0f/255.0f,255.0f/255.0f);
+			color_bubbleEvent			= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f); // 하얀색
+			color_bubbleSelectionMarker	= new Color(  0.0f/255.0f,  0.0f/255.0f,  0.0f/255.0f,255.0f/255.0f); // 검정색
+			color_numberEvent			= new Color(238.0f/255.0f,105.0f/255.0f,105.0f/255.0f,255.0f/255.0f);
+			color_year					= new Color(  0.0f/255.0f,  0.0f/255.0f,  0.0f/255.0f,255.0f/255.0f); // 검정색
+			color_month					= new Color(  0.0f/255.0f,  0.0f/255.0f,  0.0f/255.0f,255.0f/255.0f); // 검정색
+			color_day					= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f); // 하얀색
+			color_dayOfWeek				= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f); // 하얀색
+			color_Events				= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
+			color_ButtonRight			= new Color(  0.0f/255.0f,  0.0f/255.0f,  0.0f/255.0f,255.0f/255.0f); // 검정색
+			color_ButtonLeft			= new Color(  0.0f/255.0f,  0.0f/255.0f,  0.0f/255.0f,255.0f/255.0f); // 검정색
+			color_Home					= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
+		}
+
 
 		// ======================================================
 		// =================== GREEN SEA ========================
@@ -70,7 +94,7 @@ public class FlatCalendarStyle
 			color_numberEvent			= new Color(238.0f/255.0f,105.0f/255.0f,105.0f/255.0f,255.0f/255.0f);
 			color_year					= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
 			color_month					= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
-			color_day					= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);;
+			color_day					= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
 			color_dayOfWeek				= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
 			color_Events				= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
 			color_ButtonRight			= new Color(255.0f/255.0f,255.0f/255.0f,255.0f/255.0f,255.0f/255.0f);
